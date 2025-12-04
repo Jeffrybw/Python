@@ -1,0 +1,12 @@
+Categoría,Tipo,Pregunta,Opciones,Colores
+Información de la reunión,st.date_input(),Fecha de reunión:,,
+Información de la reunión,st.selectbox(),Responsable de la interacción:,"JBB,AAA,BBB,CCC,DDD",
+Información de la reunión,st.selectbox(),Tipo de reunión:,"Telefónica,Videollamada,Presencial,Mensajería",
+Información del Stakeholder,st.text_input(),Nombre y apellido del STK:,,
+Información del Stakeholder,st.text_input(),Tema central de la interacción:,,
+Información del Stakeholder,st.selectbox(),Comunidad:,"Uchucarcco,Comunidad B,Comunidad C",
+Información de la Interacción,st.multiselect(),Temas abordados:,"Coyuntura,Proyectos,Quejas,Familiares",
+Información de la Interacción,st.selectbox(),Posición de la interacción:,"Positivo,Negativo,Neutral,Apoyo condicionado","🟢,🔴,🟡,🟠"
+Información de la Interacción,st.text_area(),Mensajes recibidos:,,
+Información de la Interacción,st.text_area(),Mensajes posicionados:,,
+Información de la Interacción,st.text_area(),Próximas acciones:,,
