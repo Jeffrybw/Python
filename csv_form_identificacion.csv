@@ -1,26 +1,28 @@
-Categoría,Tipo,Pregunta,Opciones,Colores
-Datos Personales,st.number_input(),Documento de Identidad:,,
-Datos Personales,st.text_input(),Apellido Paterno:,,
-Datos Personales,st.text_input(),Apellido Materno:,,
-Datos Personales,st.text_input(),Nombres:,,
-Datos Personales,st.selectbox(),Sexo:,"M,F",
-Datos Personales,st.selectbox(),Estado Civil:,"Solter@,Casad@,Viud@,Divorciad@,Conviviente",
-Datos Personales,st.date_input(),Fecha de nacimiento:,,
-Datos Personales,st.number_input(),Edad:,,
-Datos Personales,st.number_input(),Número de hijos:,,
-Datos Personales,st.number_input(),Número de teléfono:,,
-Datos del Domicilio,st.text_input(),Departamento:,,
-Datos del Domicilio,st.text_input(),Provincia:,,
-Datos del Domicilio,st.text_input(),Distrito:,,
-Datos del Domicilio,st.text_input(),Sector:,,
-Datos del Domicilio,st.text_input(),Dirección:,,
-Análisis social,st.selectbox(),Actividad económica principal:,"Agropecuaria,Minería Artesanal,Empleado,Empresa Local,Comerio,Otros",
-Análisis social,st.text_area(),Detalle actividad:,,
-Análisis social,st.selectbox(),Rol:,"Junta Directiva,Miembro del Comité,Rondero,Otros",
-Análisis social,st.text_area(),Detalle Rol:,,
-Análisis social,st.text_area(),Intereses personales:,,
-Análisis social,st.selectbox(),Poder Social:,"Alto,Medio,Bajo","🔴,🟡,🟢"
-Análisis social,st.selectbox(),Poder Económico:,"Alto,Medio,Bajo","🔴,🟡,🟢"
-Análisis social,st.selectbox(),Poder Político:,"Alto,Medio,Bajo","🔴,🟡,🟢"
-Análisis social,st.selectbox(),Postura hacia la empresa:,"Positiva,Neutral,Negativa","🟢,🟡,🔴"
-Análisis social,st.selectbox(),Criticidad del Stakeholder:,"Alto,Medio,Bajo","🔴,🟡,🟢"
+﻿Categoría,Tipo,Pregunta,Opciones
+Datos Personales,st.number_input(),Documento de Identidad:,
+Datos Personales,st.text_input(),Apellido Paterno:,
+Datos Personales,st.text_input(),Apellido Materno:,
+Datos Personales,st.text_input(),Nombres:,
+Datos Personales,st.selectbox(),Sexo:,"""M,F"""
+Datos Personales,st.selectbox(),Estado Civil:,"""Soltero,Casado,Viudo,Divorciado,Conviviente"""
+Datos Personales,st.date_input(),Fecha de nacimiento:,
+Datos Personales,st.number_input(),Edad:,
+Datos Personales,st.number_input(),Número de hijos:,
+Datos Personales,st.number_input(),Número de contacto:,
+Datos del Domicilio,st.text_input(),Departamento:,
+Datos del Domicilio,st.text_input(),Provincia:,
+Datos del Domicilio,st.text_input(),Distrito:,
+Datos del Domicilio,st.text_input(),C.C. / Anexo:,
+Datos del Domicilio,st.text_input(),Sector / Caserío:,
+Datos del Domicilio,st.text_input(),Dirección (Calle/Mz./Lote/N° XX/Referencia):,
+Datos del Domicilio,st.text_input(),Otra residencia:,
+Análisis social,st.selectbox(),Actividad económica principal:,"""Agropecuaria,Minería Artesanal,Empleado,Empresa Local,Comerciante,Profesional,Otros"""
+Análisis social,st.text_area(),Detalle actividad:,
+Análisis social,st.selectbox(),Rol:,"""Junta Directiva,Miembro del Comité,Rondero,Otros"""
+Análisis social,st.text_area(),Detalle Rol:,
+Análisis social,st.text_area(),Intereses personales:,
+Análisis social,st.selectbox(),Poder Social:,"""Alto,Medio,Bajo"""
+Análisis social,st.selectbox(),Poder Económico:,"""Alto,Medio,Bajo"""
+Análisis social,st.selectbox(),Poder Político:,"""Alto,Medio,Bajo"""
+Análisis social,st.selectbox(),Postura hacia la empresa:,"""Positiva,Neutral,Negativa"""
+Análisis social,st.selectbox(),Criticidad del Stakeholder:,"""Alta,Media,Baja"""
