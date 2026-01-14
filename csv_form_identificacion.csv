@@ -12,8 +12,8 @@ Datos Personales,st.number_input(),Número de contacto:,
 Datos del Domicilio,st.text_input(),Departamento:,
 Datos del Domicilio,st.text_input(),Provincia:,
 Datos del Domicilio,st.text_input(),Distrito:,
-Datos del Domicilio,st.text_input(),C.C. / Anexo:,
-Datos del Domicilio,st.text_input(),Sector / Caserío:,
+Datos del Domicilio,st.text_input(),Comunidad:,
+Datos del Domicilio,st.selectbox(),Sector / Caserío:, "Alto Maclla,La Llicana,La Pampa,La Loma,Llaguen Centro,Pilcae"
 Datos del Domicilio,st.text_input(),Dirección (Calle/Mz./Lote/N° XX/Referencia):,
 Datos del Domicilio,st.text_input(),Otra residencia:,
 Análisis social,st.selectbox(),Actividad económica principal:,"Agropecuaria,Minería Artesanal,Empleado,Empresa Local,Comerciante,Profesional,Otros"
@@ -26,3 +26,7 @@ Análisis social,st.selectbox(),Poder Económico:,"Alto,Medio,Bajo"
 Análisis social,st.selectbox(),Poder Político:,"Alto,Medio,Bajo"
 Análisis social,st.selectbox(),Postura hacia la empresa:,"Positiva,Neutral,Negativa"
 Análisis social,st.selectbox(),Criticidad del Stakeholder:,"Alta,Media,Baja"
+Conexiones sociales,st.number_input(),Documento de Identidad Cónyugue:,
+Conexiones sociales,st.text_input(),Apellido Paterno Cónyugue:,
+Conexiones sociales,st.text_input(),Apellido Materno Cónyugue:,
+Conexiones sociales,st.text_input(),Nombres Cónyugue:,
