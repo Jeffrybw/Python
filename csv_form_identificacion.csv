@@ -13,7 +13,7 @@ Datos del Domicilio,st.text_input(),Departamento:,
 Datos del Domicilio,st.text_input(),Provincia:,
 Datos del Domicilio,st.text_input(),Distrito:,
 Datos del Domicilio,st.text_input(),Comunidad:,
-Datos del Domicilio,st.selectbox(),Sector / Caserío:, "Alto Maclla,La Llicana,La Pampa,La Loma,Llaguen Centro,Pilcae"
+Datos del Domicilio,st.selectbox(),Sector / Caserío:,"Alto Maclla,La Llicana,La Pampa,La Loma,Llaguen Centro,Pilcae"
 Datos del Domicilio,st.text_input(),Dirección (Calle/Mz./Lote/N° XX/Referencia):,
 Datos del Domicilio,st.text_input(),Otra residencia:,
 Análisis social,st.selectbox(),Actividad económica principal:,"Agropecuaria,Minería Artesanal,Empleado,Empresa Local,Comerciante,Profesional,Otros"
